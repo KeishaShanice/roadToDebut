@@ -223,7 +223,7 @@ const pages = {
 
     nextSteps: {
         id: 13,
-        title: 'Next steps!!!',
+        title: 'Next Steps!!!',
         text: 'The manager gives you and your groupmates instructions to meet at the MAIN building (HQ) (the one reserved artists, producers, and other professionals) 1st thing tomorrow morning. You will begin debut preparations starting with assigning official positions, stage names, greetings, a fanbase name, and a group name. So: 1) Looking forward to tomorrow, you go home and sleep for the first time in months. 2) You realize that this really isn’t your passion, and you’d like to live a healthy life loving what you do. So, you respectfully decline the offer and book a flight home.',
         buttons: [
             {
@@ -247,7 +247,7 @@ const pages = {
         decisionText: 'Now that everything has been decided, the manager gives you the contract to review and the rest of the day off. You read the contract and decide to:',
         buttons: [
             {
-                choice: 'Reject the terms. You realize this isn’t for you. It’s too restrictive, and you aren’t really feeling the concept.',
+                choice: 'Reject the terms.', //You realize this isn’t for you. It’s too restrictive, and you aren’t really feeling the concept.
                 goTo: 'gameOver',
             },
             {
