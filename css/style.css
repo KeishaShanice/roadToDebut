@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../media/gameOpen.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container {
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+}
+
+p {
+    font-size: 22px;
+}
+
+body.gameOpen {
+    background-image: url("../media/gameOpen.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.clouds {
+    background-image: url("../media/clouds.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.planeSky{
+    background-image: url("../media/planeSky.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.nightSky{
+    background-image: url("../media/nightSky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.curtain{
+    background-image: url("../media/curtain.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.thankYou{
+    background-image: url("../media/thankYou.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.planeClouds{
+    background-image: url("../media/planeClouds.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.micLong{
+    background-image: url("../media/micLong.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.micCircle{
+    background-image: url("../media/micCircle.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.debutPoster{
+    background-image: url("../media/debutPoster.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.gameOver{
+    background-image: url("../media/nightSky.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+body.gameOpen{
+    background-image: url("../media/gameOpen.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.butterflies{
+    background-image: url("../media/butterflies.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.auditionPoster{
+    background-image: url("../media/auditionPoster.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.hollywood{
+    background: url("../media/hollywood.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.fireworks{
+    background: url("../media/fireWorks.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: teal;
+}
+
+body.practice{
+    background-image: url("../media/practice.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.congrats{
+    background-image: url("../media/congrats.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.building{
+    background-image: url("../media/building.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.debutFlowers{
+    background-image: url("../media/debutFlowers.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.contract{
+    background-image: url("../media/contract.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.debutFlowers{
+    background-image: url("../media/debutFlowers.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .gameSpace {
+    background: whitesmoke;
+} */
+
+.btn:hover {
+    border-color: black;
+}
+
+.button {
+    margin: 10px 10px;
+    background-color: teal;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 22px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.startRow {
+    margin-top: 755px;
+}
+
+
+.startButton {
+    margin-top: 550px;
+    opacity: 0;
+    animation: flash 1.5s infinite;
+} 
+
+@keyframes flash {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.startButton:hover {
+    cursor: pointer;
+} 
+
+.text {
+    color: whitesmoke;
+}

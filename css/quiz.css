@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+body {
+    --hue: var(--hue-neutral);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 100%, 20%);
+    /* background-image: url('../media/curtain.jpg');  */
+    
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.container {
+    width: 900px;
+    max-width: 80%;
+    padding: 10px;
+    background: white-smoke;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.gameSpace {
+    background-color: white;
+}
+
+/* .buttonArea {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.btn:hover {
+    border-color: black;
+}
+
+
+/* .beginButton, .nextButton {
+
+} */
+
+.button {
+    background-color: teal;
+}
+
+
+.hide {
+    display: none;
+
+}
+
+
+
+
+/* body.titlePage {
+    background-image: ;
+}
+body.welcome
+body.auditionPoster */
